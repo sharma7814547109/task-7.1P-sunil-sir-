@@ -1,0 +1,72 @@
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 25px;  
+  height: 480px;
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #41e2d2;
+  padding: 30px;
+}
+
+.auth-title {
+  margin-top: 0;
+  color: #4e4e4e;
+  font-size: 24px;
+}
+
+input {
+  width: 85%;
+  margin-bottom: 12px;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: #e6e6e6;
+  transition: background-color 0.3s ease;
+}
+
+input:focus {
+  background-color: #fff;
+  border-color: #0b7dda;
+}
+
+.submit-button {
+  width: 60%;
+  padding: 14px;
+  background-color: #8a37d6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #6f1bbf;
+  transform: scale(1.05);
+}
+
+.submit-button:active {
+  background-color: #5a0c9c;
+}
+
+.error-message {
+  color: #e02b2b;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.small-text {
+  margin-left: 75%;
+  font-size: 16px;
+  color: #7d7d7d;
+}

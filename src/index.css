@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+code {
+  font-family: 'Courier Prime', Courier, monospace;
+  background-color: #282c34;
+  color: #f8f8f2;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
